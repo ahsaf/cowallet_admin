@@ -1,0 +1,118 @@
+.tumbclass {
+  cursor: pointer;
+}
+.tableBold {
+  font-weight: bold ;
+}
+.fl {
+  display: flex;
+}
+.dashboardcard{
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 12px;
+  height: 100px;
+  display: flex;
+}
+.dashcardstats{
+  display:flex;
+  flex-direction: column;
+  flex:1
+}
+.dashcardicon{
+  /* background-color: #eee; */
+  width: 72px;
+  height: 72px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addclicktext{
+  color: rgb(67, 67, 155);
+  cursor: pointer;
+  text-decoration-line: underline;
+}
+.aligtnLeft{
+  text-align: left;
+}
+.fldc {
+  display: flex;
+  flex-direction: column;
+}
+.fl-align-center{
+  display: flex;
+  align-items: center;
+}
+.fl-justify-center{
+  display: flex;
+  align-items: center;
+}
+.leftborder{
+  border-left: 1px solid rgba(0,0,200,0.2);
+}
+.rightborder{
+  border-right: 1px solid rgba(0,0,200,0.2);
+}
+.topborder{
+  border-top: 1px solid rgba(0,0,200,0.2);
+}
+.paddingTop16{
+  padding-top: 12px !important;
+}
+
+.whitecard{
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 8px;
+}
+.point {
+  cursor: pointer;
+}
+.page_title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.page_title_H {
+  font-size: 24px;
+  font-weight: 500;
+}
+.hover_show {
+  opacity: 0;
+}
+.hover_show:hover {
+  opacity: 1;
+}
+
+.txt_underline:hover {
+  text-decoration: underline;
+}
+
+.form-box-w {
+  /* background-color: #f7f7f7f7; */
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 13px;
+  margin-bottom: 32px;
+}
+
+@media print {
+  body {
+    background-color: white;
+  }
+  #print_div {
+    width: 100%;
+
+    background-color: white !important;
+  }
+  #printhideshadow {
+    border: none;
+    box-shadow: none;
+  }
+  #peniconnop {
+    visibility: hidden;
+  }
+  #pagination {
+    visibility: hidden;
+  }
+}
